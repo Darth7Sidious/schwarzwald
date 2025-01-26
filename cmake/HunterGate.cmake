@@ -60,7 +60,8 @@ option(HUNTER_STATUS_PRINT "Print working status" ON)
 option(HUNTER_STATUS_DEBUG "Print a lot info" OFF)
 option(HUNTER_TLS_VERIFY "Enable/disable TLS certificate checking on downloads" ON)
 
-set(HUNTER_WIKI "https://github.com/ruslo/hunter/wiki")
+# set(HUNTER_WIKI "https://github.com/ruslo/hunter/wiki")
+set(HUNTER_WIKI "https://github.com/cpp-pm/hunter")
 
 function(hunter_gate_status_print)
   if(HUNTER_STATUS_PRINT OR HUNTER_STATUS_DEBUG)
